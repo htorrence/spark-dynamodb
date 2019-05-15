@@ -14,7 +14,7 @@ resolvers += "DynamoDBLocal" at "https://s3-us-west-2.amazonaws.com/dynamodb-loc
 
 libraryDependencies += "com.amazonaws" % "aws-java-sdk-dynamodb" % "1.11.466"
 libraryDependencies += "com.amazonaws" % "DynamoDBLocal" % "[1.11,2.0)" % "test" exclude("com.google.guava", "guava")
-libraryDependencies += "com.amazonaws" % "aws-java-sdk" % "1.11.49"
+libraryDependencies += "com.amazonaws" % "aws-java-sdk-sts" % "1.11.466"
 
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.0" % "provided"
 libraryDependencies += "com.google.guava" % "guava" % "14.0.1" % "provided"
